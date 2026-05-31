@@ -161,6 +161,10 @@ export const projects = [
 
 export const skills = [
   {
+    category: "Languages",
+    items: ["Java", "Python", "C++", "JavaScript", "Solidity"],
+  },
+  {
     category: "Backend & Infrastructure",
     items: [
       "Spring Boot", "Apache Kafka", "Apache Camel", "Hibernate",
@@ -182,10 +186,6 @@ export const skills = [
     ],
   },
   {
-    category: "Languages",
-    items: ["Java", "Python", "C++", "JavaScript", "Solidity"],
-  },
-  {
     category: "Cloud & DevOps",
     items: [
       "AWS Lambda", "API Gateway", "Cognito",
@@ -193,7 +193,7 @@ export const skills = [
     ],
   },
   {
-    category: "Frontend (Supplementary)",
+    category: "Frontend",
     items: ["React.js", "HTML", "CSS", "JavaScript"],
     supplementary: true,
   },
@@ -229,7 +229,7 @@ export const achievements = [
   {
     id: "icpc",
     type: "milestone",
-    title: "ICPC Asia Amritapuri Preliminary Round",
+    title: "ICPC Asia Amritapuri — Pre-Regional Round",
     rankDisplay: "Rank 176",
     sub: "Team: Accidental Derangement · September 2022",
     link: "https://webfiles.amrita.edu/2022/09/ICPC-Asia-Amritapuri-Preliminary-Rank-List-2021.pdf",

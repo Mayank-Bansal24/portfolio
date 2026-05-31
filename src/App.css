@@ -793,40 +793,36 @@ strong { font-weight: 600; color: var(--text); }
 /* ─── SKILLS ─────────────────────────────────────────────── */
 .skills-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1.5rem;
-  align-items: stretch;
+  grid-template-columns: 1fr;
+  gap: 0.85rem;
 }
 .skill-group {
   background: var(--surface);
   border: 1px solid var(--border);
   border-radius: var(--rl);
-  padding: 1.5rem;
-  transition: border-color var(--ease);
+  padding: 1.25rem 1.5rem;
   display: flex;
-  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  transition: border-color var(--ease);
 }
 .skill-group:hover { border-color: var(--border-md); }
-/* Backend spans full width */
-.skill-group:first-child {
-  grid-column: 1 / -1;
-  background: var(--surface-2);
-  border-color: var(--border-md);
-}
 .skill-group-header {
   font-size: 0.7rem;
   font-weight: 700;
   letter-spacing: 0.09em;
   text-transform: uppercase;
   color: var(--accent);
-  margin-bottom: 1rem;
+  white-space: nowrap;
+  min-width: 180px;
+  flex-shrink: 0;
+  padding-right: 1.25rem;
+  border-right: 1px solid var(--border);
 }
 .skill-pills {
   display: flex;
   flex-wrap: wrap;
   gap: 0.45rem;
-  flex: 1;
-  align-content: flex-start;
 }
 .skill-pill {
   font-size: 0.78rem;
