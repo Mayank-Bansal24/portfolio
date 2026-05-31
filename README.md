@@ -34,25 +34,6 @@ npm run dev
 
 Opens at `http://localhost:5173`.
 
-## Environment variables
-
-All variables are prefixed `VITE_` (Vite exposes them to the browser at build time). Copy `.env.example` to `.env` and set:
-
-| Variable | Description |
-|---|---|
-| `VITE_EMAIL` | Contact email |
-| `VITE_PHONE` | Phone number |
-| `VITE_GITHUB` | GitHub profile URL |
-| `VITE_LINKEDIN` | LinkedIn profile URL |
-| `VITE_CODEFORCES` | Codeforces profile URL |
-| `VITE_CODECHEF` | CodeChef profile URL |
-| `VITE_NUCLEUS_LINKEDIN` | Nucleus Software LinkedIn URL |
-| `VITE_ODE_LINKEDIN` | ODE Holdings LinkedIn URL |
-| `VITE_ODE_CERTIFICATE` | ODE internship certificate URL |
-
-For the GitHub Actions deploy, set these as **repository secrets** under Settings → Secrets → Actions.
-
----
 
 ## Deployment
 
