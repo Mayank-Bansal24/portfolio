@@ -50,20 +50,19 @@ export default function About() {
             <h2 className="section-title">Background &amp; <span className="accent">Expertise</span></h2>
             <p className="section-sub">IIT Mandi CS graduate, competitive programmer, backend engineer.</p>
             <p className="about-lead">
-              I specialise in building scalable distributed systems and AI-powered solutions.
-              Graduated from <strong>IIT Mandi</strong> with a B.Tech in Computer Science
-              and Engineering, and a <strong>Minor in Management</strong>.
+              B.Tech in Computer Science from IIT Mandi, with a Minor in Management.
+              I work on backend systems — the parts users don't see but everything depends on.
             </p>
             <p className="about-body">
-              At <strong>Nucleus Software</strong>, I work at the intersection of
-              enterprise-scale systems and modern AI — engineering a Low-Code Integration
-              Platform that cut 60-day integration cycles to <strong>under 3 hours</strong>,
-              shipping production RAG chatbots, and architecting real-time data lakehouses
-              using Kafka, Spark, and Apache Iceberg.
+              At <strong>Nucleus Software</strong> I've built a Low-Code Integration
+              Platform that cut a 60-day process down to <strong>3 hours</strong>,
+              shipped a production RAG chatbot with LangChain and Milvus, and set up
+              a real-time data lakehouse using Kafka, Spark, and Apache Iceberg.
             </p>
             <p className="about-body">
-              Active competitive programmer over 2+ years — <strong>Codeforces Specialist (1514)</strong>,{' '}
-              <strong>Codechef 4★ (1809)</strong>, ICPC Asia Amritapuri participant.
+              Outside work I compete on Codeforces (<strong>Specialist, 1514</strong>)
+              and CodeChef (<strong>4★, 1809</strong>). Represented IIT Mandi at
+              ICPC Asia Amritapuri 2022.
             </p>
             <div className="chips">
               {chips.map(c => <span key={c} className="chip">{c}</span>)}

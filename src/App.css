@@ -795,6 +795,7 @@ strong { font-weight: 600; color: var(--text); }
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1.5rem;
+  align-items: stretch;
 }
 .skill-group {
   background: var(--surface);
@@ -802,9 +803,11 @@ strong { font-weight: 600; color: var(--text); }
   border-radius: var(--rl);
   padding: 1.5rem;
   transition: border-color var(--ease);
+  display: flex;
+  flex-direction: column;
 }
 .skill-group:hover { border-color: var(--border-md); }
-/* First group (Backend) spans full width to emphasise it */
+/* Backend spans full width */
 .skill-group:first-child {
   grid-column: 1 / -1;
   background: var(--surface-2);
@@ -822,6 +825,8 @@ strong { font-weight: 600; color: var(--text); }
   display: flex;
   flex-wrap: wrap;
   gap: 0.45rem;
+  flex: 1;
+  align-content: flex-start;
 }
 .skill-pill {
   font-size: 0.78rem;
