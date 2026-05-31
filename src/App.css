@@ -965,6 +965,7 @@ strong { font-weight: 600; color: var(--text); }
 .clink.gh .clink-icon { background: var(--surface-2); color: var(--text-2); }
 .clink.cf .clink-icon { background: rgba(59,130,246,0.1); color: #60a5fa; }
 .clink.cc .clink-icon { background: rgba(245,158,11,0.1); color: #fbbf24; }
+.clink.ph .clink-icon { background: rgba(34,197,94,0.1);  color: #4ade80; }
 
 .clink-text { flex: 1; }
 .clink-label { font-size: 0.68rem; color: var(--muted); font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; }
@@ -972,31 +973,7 @@ strong { font-weight: 600; color: var(--text); }
 .clink-arrow { color: var(--muted); font-size: 0.85rem; transition: color var(--ease), transform var(--ease); }
 .clink:hover .clink-arrow { color: var(--accent); transform: translateX(2px); }
 
-.contact-phone-row {
-  display: flex;
-  align-items: center;
-  gap: 0.75rem;
-  padding: 0.85rem 1rem;
-  background: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: var(--r);
-  margin-top: 0.1rem;
-}
-.contact-phone-label {
-  font-size: 0.68rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  color: var(--muted);
-  min-width: 3.5rem;
-}
-.contact-phone-val {
-  font-family: var(--mono);
-  font-size: 0.85rem;
-  color: var(--text-2);
-  transition: color var(--ease);
-}
-.contact-phone-val:hover { color: var(--accent); }
+/* Contact terminal styles removed */
 
 /* Contact terminal */
 .contact-terminal {

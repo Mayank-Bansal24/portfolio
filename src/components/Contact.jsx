@@ -2,11 +2,10 @@ import { useInView } from 'react-intersection-observer';
 import { personal } from '../data/portfolioData';
 
 const contactLinks = [
-  { id: 'email',    icon: '✉',  label: 'Email',       value: personal.email,                     href: `mailto:${personal.email}`, cls: '',   external: false },
-  { id: 'linkedin', icon: 'in', label: 'LinkedIn',    value: 'mayank-bansal-395067228',           href: personal.linkedin,          cls: 'li', external: true  },
-  { id: 'github',   icon: 'gh', label: 'GitHub',      value: 'Mayank-Bansal24',                   href: personal.github,            cls: 'gh', external: true  },
-  { id: 'cf',       icon: 'cf', label: 'Codeforces',  value: 'Mayank_Bansal · Specialist 1514',   href: personal.codeforces,        cls: 'cf', external: true  },
-  { id: 'cc',       icon: 'cc', label: 'CodeChef',    value: 'mayank_2402 · 4★ 1809',             href: personal.codechef,          cls: 'cc', external: true  },
+  { id: 'email',    icon: '✉',  label: 'Email',    value: personal.email,               href: `mailto:${personal.email}`,    cls: '',   external: false },
+  { id: 'phone',    icon: '✆',  label: 'Phone',    value: personal.phone,               href: `tel:${personal.phone}`,       cls: 'ph', external: false },
+  { id: 'linkedin', icon: 'in', label: 'LinkedIn', value: 'mayank-bansal-395067228',    href: personal.linkedin,             cls: 'li', external: true  },
+  { id: 'github',   icon: 'gh', label: 'GitHub',   value: 'Mayank-Bansal24',            href: personal.github,               cls: 'gh', external: true  },
 ];
 
 export default function Contact() {
@@ -40,11 +39,6 @@ export default function Contact() {
               <span className="clink-arrow">→</span>
             </a>
           ))}
-        </div>
-
-        <div className="contact-phone-row">
-          <span className="contact-phone-label">Phone</span>
-          <a href={`tel:${personal.phone}`} className="contact-phone-val">{personal.phone}</a>
         </div>
       </div>
     </section>
