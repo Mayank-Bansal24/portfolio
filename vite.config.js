@@ -4,8 +4,8 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
 
-  // './' keeps asset paths relative — works on GitHub Pages project repos
-  base: './',
+  // '/portfolio/' keeps asset paths correct for GitHub Pages project repos
+  base: '/portfolio/',
 
   build: {
     // Terser for proper minification + name mangling (obfuscation-level)

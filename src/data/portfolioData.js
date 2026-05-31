@@ -135,7 +135,7 @@ export const projects = [
     tags: ["Node.js", "React.js", "MongoDB", "Socket.io", "Express.js"],
     metrics: ["Real-time Messaging", "WebSocket Architecture"],
     github: "https://github.com/Mayank-Bansal24/Chatx",
-    video: "/chatx_demo.mp4",
+    video: `${import.meta.env.BASE_URL}chatx_demo.mp4`,
   },
   {
     id: "backup",
@@ -145,7 +145,7 @@ export const projects = [
     tags: ["C++", "OOP", "Firebase", "Git"],
     metrics: ["Encrypted Storage", "Incremental Sync"],
     github: "https://github.com/Mayank-Bansal24/Backup_utility",
-    video: "/backup_utility_demo.mp4",
+    video: `${import.meta.env.BASE_URL}backup_utility_demo.mp4`,
   },
   {
     id: "stocks",
@@ -155,7 +155,7 @@ export const projects = [
     tags: ["Python", "Telegram API", "Market Data"],
     metrics: ["Real-time Alerts", "Telegram Integration"],
     github: "https://github.com/Mayank-Bansal24/Yourstocks_bot",
-    video: "/yourstocks_bot_demo.mp4",
+    video: `${import.meta.env.BASE_URL}yourstocks_bot_demo.mp4`,
   },
 ];
 

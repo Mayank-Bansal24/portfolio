@@ -113,7 +113,7 @@ export default function Hero() {
         <div className="hero-profile-card">
           <div className="profile-photo-wrap">
             <img
-              src="/profilepic.jpeg"
+              src={`${import.meta.env.BASE_URL}profilepic.jpeg`}
               alt="Mayank Bansal"
               className="profile-photo"
               onContextMenu={e => e.preventDefault()}
